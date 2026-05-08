@@ -1,0 +1,15 @@
+# ============================================
+# SiliconFlow Vision - 依赖清单
+# ============================================
+# 安装方式：
+#   pip install -r requirements.txt
+# 或使用 uv（更快）：
+#   uv pip install -r requirements.txt
+# ============================================
+
+# OpenAI SDK（用于调用 SiliconFlow 兼容 API）
+openai>=1.0.0
+
+# [仅 MCP Server 需要] MCP 框架
+# 如果你只使用 CLI 版 vision.py，可以不用安装此项
+mcp[cli]>=1.2.0
